@@ -1,0 +1,1 @@
+This repository contains a JavaScript implementation of the Euclidean algorithm with a potential bug. The function `foo` calculates the greatest common divisor (GCD) of two numbers using recursion. However, it can enter an infinite loop if the first argument is ever 0 and the second is not 0.  The `bugSolution.js` file provides a corrected version that handles this edge case.
